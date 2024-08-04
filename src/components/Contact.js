@@ -19,11 +19,11 @@ const Contact = () => {
             <form>
               <div className="form-row">
                 <label htmlFor="name"></label>
-                <input type="text" id="name" name="name" placeholder="Swagat Beaura" />
+                <input type="text" id="name" name="name" placeholder="pooja das" />
               </div>
               <div className="form-row">
                 <label htmlFor="email"></label>
-                <input type="email" id="email" name="email" placeholder="Swagatbi123@gmail.com" />
+                <input type="email" id="email" name="email" placeholder="poojadas1234@gmail.com" />
               </div>
               <div className="form-row">
                 <label htmlFor="message"></label>
