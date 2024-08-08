@@ -20,7 +20,7 @@ const RoutesComponent = () => {
   const isAuthenticated = Boolean(localStorage.getItem('loggedInUserEmail'));
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
       <Header /> {/* The Header will be included on every page */}
       <Routes>
         {/* Redirect to login if not authenticated */}
